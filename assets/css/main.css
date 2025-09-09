@@ -45,6 +45,29 @@ body{
 }
 
 /* /////////////////////////////////////// */
+/* footer */
+.footer{
+    padding: 70px 0;
+    background-color: #EEEFFB;
+    
+}
+.footer a, .address-info{
+    color: #8A8FB9;
+}
+.footer-item{
+    gap:45px;
+}
+.footer .left-side{
+    gap:35px;
+    align-items:flex-start;
+}
+.footer .right-side .row{
+    align-items: flex-start;
+}
+.footer .right-side{
+    width: 60%;
+    
+}
 
 
 /* .footer-end{
