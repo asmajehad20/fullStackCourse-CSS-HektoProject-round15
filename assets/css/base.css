@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+
+:root{
+    --mainColor:#FB2E86;
+    --mainFont: "Lato", sans-serif;
+    --subFont: "Josefin Sans", sans-serif;
+}
+
+.btn{
+    border: none;
+    outline:none;
+    color: #fff;
+    padding: 12px 40px;
+    border-radius: 2px;
+    font-size: 14px;
+}
+.btn-mainColor{
+    background-color: var(--mainColor);
+}
+.btn-success{
+    background-color: #08D15F;
+}
+
+/* position */
+
+.container{
+    max-width: calc(100% - 330px);
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 50px;
+ }
+ 
+.d-flex{
+    display: flex;
+}
+.flex-direction{
+    flex-direction: column;
+}
+.flex-warp{
+    flex-wrap: wrap;
+}
+.space-between{
+    justify-content: space-between;
+}
+
+.space-center{
+    align-items: center;
+}
+
+
+ .center{
+    justify-content: center;
+}
+
+/* text */
+.text-link{
+    color: #0D0E43;
+}
+.active{
+    color: var(--mainColor);
+}
+.title{
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 35px;
+    text-align: center;
+    color: #1A0B5B;
+    font-family: var(--subFont);
+    margin-top: 90px;
+    margin-bottom: 40px;
+ }
+
+ .sub-title{
+    font-weight: bold;
+    font-size: 18px;
+ }
+ .text-35{
+    font-size: 35px;
+ }
+ .text-20{
+    font-size: 20px;
+ }
+.text-18{
+    font-size: 18px;
+}
+.text-16{
+    font-size: 14px;
+}
+.text-14{
+    font-size: 14px;
+}
+.text-12{
+    font-size: 12px;
+}
+ .text-mainFont{
+    font-family: var(--mainFont);
+ }
+ .text-subFont{
+    font-family: var(--subFont);
+ }
+ .text-gray{
+    color: #72718F;
+ }
+
+.underlined{
+    text-decoration: underline;
+}
+
+/* general */
+.border-0{
+    border: none;
+}
+.outline-0{
+    outline: none;
+}
+ .cyan{
+    background-color: #05E6B7;
+ }
+
+.pink{
+    background-color: #F701A8;
+}
+.outline-pink{
+    border: 2px solid var(--mainColor);
+}
+
+.blue{
+    background-color: #00009D;
+}
+.green{
+    background-color: #2BF5CC;
+}
+
+/* gaps */
+.gap-5{
+    gap:5px;
+}
+.gap-10{
+    gap:10px;
+}
+.gap-20{
+    gap:20px;
+}
+.gap-25{
+    gap:25px;
+}
+.gap-30{
+    gap:30px;
+}
+.gap-35{
+    gap:35px;
+}
+/* ///////////////// */
+
+.p{
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.active-div{
+    background-color: var(--mainColor);
+}
