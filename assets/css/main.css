@@ -73,14 +73,29 @@ body{
     width: clac((100% - 75px) / 5);
 }
 
-.clients img{
-    /* width: 100%; */
-}
-
 @media screen and (max-width:900px){
     .clients .logo{
         width: clac((100% - 45px) / 3);
     }
+}
+
+/* newslater section */
+.newslater{
+    background-image: url("./../img/public/background.webp");
+    padding: 175px 0;
+    text-align: center;
+    background-attachment: fixed;
+}
+.newslater h2{
+    margin-bottom: 50px;
+    color: #151875;
+    font-size: 35px;
+}
+.shop-btn{
+    transition: all 0.5s;
+}
+.shop-btn:hover{
+    background-color: #0d0e43;
 }
 /* /////////////////////////////////////// */
 /* footer */
