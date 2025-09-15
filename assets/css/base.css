@@ -208,3 +208,21 @@ li{
 .active-div{
     background-color: var(--mainColor);
 }
+
+/* //////////////////////////// */
+.color{
+    width: 20px;
+    height: 5px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+}
+.color-one{
+    background-color:#2BF5CC;
+}
+.color-two{
+    background-color: var(--mainColor);
+}
+.color-three{
+    background-color: #00009D;
+}
