@@ -114,8 +114,6 @@ li{
     text-align: center;
     color: #1A0B5B;
     font-family: var(--subFont);
-    margin-top: 90px;
-    margin-bottom: 40px;
  }
 
  .sub-title{
@@ -225,4 +223,11 @@ li{
 }
 .color-three{
     background-color: #00009D;
+}
+
+.text-primary{
+    color: var(--mainColor);
+}
+.text-secondary{
+    color: #151875;
 }
