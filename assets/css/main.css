@@ -121,12 +121,11 @@ body{
     }
 }
 /* featured products section */
-.featured-products{
-    padding: 50px 0;
-}
+
 .featured-products{
     /* color: #1A0B5B; */
     text-align: center;
+    padding: 50px 0;
 }
 .featured-products .row{
     padding-top: 50px;
@@ -141,37 +140,95 @@ body{
     border-radius: 2px;
 }
 
-.product .img{
+.featured-products .product .img{
+    background-color: #F6F7FB;  
+}
+.featured-products .product img{
     background-color: #F6F7FB;
     padding: 20px;
-}
-.product img{
     width: 180px;
     height: 180px;
     object-fit: contain;
 }
-.product-details{
+.featured-products .product-details{
     padding: 20px;
     transition: all .6s;
 }
 
-.product-details h3{
+.featured-products .product-details h3{
     color :var(--mainColor)
 }
 
-.product:hover .product-details{
+.featured-products .product:hover .product-details{
     background-color: #2F1AC4;
 }
-.product:hover span{
+.featured-products .product:hover span{
     color: white;
 }
-.product:hover .product-details h3{
+.featured-products .product:hover .product-details h3{
     color:white;
 }
 /* /////////////////////////////////////// */
 /* leatest-products */
 .leatest-products .list{
     padding:20px 0;
+}
+.leatest-products .row{
+    text-align: center;
+    padding-top: 40px;
+    
+    gap:35px;
+}
+.leatest-products .product .img{
+    background-color: #F6F7FB;  
+}
+
+.leatest-products .product img{
+    background-color: #F6F7FB;
+    padding: 30px 50px;
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+}
+.leatest-products .product{
+    flex-grow: 1;
+    padding-bottom: 40px;
+    text-align: center;
+    flex-basis: 200px;
+    flex-shrink: 0;
+    border-radius: 2px;
+}
+.leatest-products .product-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 0;
+}
+.leatest-products .product-info{
+    align-items: center;
+}
+.red-dash{
+    color: #FB2448;
+    text-decoration: line-through;
+    font-size: 12px;
+}
+@media screen and (max-width:1400px){
+    .leatest-products .product img{
+        width: 300px;
+        height: 300px;
+    }
+}
+@media screen and (max-width:992px){
+    .leatest-products .product img{
+        width: 250px;
+        height: 250px;
+    }
+}
+@media screen and (max-width:576px){
+    .leatest-products .product img{
+        width: 200px;
+        height: 200px;
+    }
 }
 /* /////////////////////////////////////// */
 /* clients section */
