@@ -185,7 +185,7 @@ body{
 
 .leatest-products .product img{
     background-color: #F6F7FB;
-    padding: 30px 50px;
+    padding: 10px 20px;
     width: 300px;
     height: 300px;
     object-fit: contain;
@@ -251,6 +251,52 @@ body{
 }
 .shopx .product p{
     padding:10px
+}
+/* ////////////////////////////////////// */
+/* top categories */
+.top-categories .row{
+    text-align: center;
+    padding: 50px;
+    
+    gap:35px;
+}
+.top-categories .product{
+    text-align: center;
+}
+.top-categories .product .img{
+    background-color: #F6F7FB;
+    border-left: 5px solid #F6F7FB;  
+    border-bottom: 5px solid #F6F7FB;
+    border-radius: 100%;  
+}
+.top-categories .product img{
+    padding: 30px;
+    width: 200px;
+    height: 200px;
+    
+    object-fit: contain;
+}
+.top-categories .product-details{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.top-categories .product:hover .img{
+    border-left: 5px solid #4a4f61;  
+    border-bottom: 5px solid #4a4f61;
+}
+@media screen and (max-width:576px){
+    .top-categories .row{
+        /* text-align: center; */
+        padding:20px;
+        justify-content: center;
+    }
+    .top-categories .product img{
+        padding: 20px;
+        width: 180px;
+        height: 180px;
+    }
 }
 /* /////////////////////////////////////// */
 /* clients section */
