@@ -283,8 +283,8 @@ body{
     gap:10px;
 }
 .top-categories .product:hover .img{
-    border-left: 5px solid #4a4f61;  
-    border-bottom: 5px solid #4a4f61;
+    border-left: 5px solid #8775B5;  
+    border-bottom: 5px solid #8775B5;
 }
 @media screen and (max-width:576px){
     .top-categories .row{
@@ -335,6 +335,43 @@ body{
 }
 .shop-btn:hover{
     background-color: #0d0e43;
+}
+
+/* ////////////////////////////////////// */
+/* leatest-blog */
+.leatest-blog .row{
+    padding:50px 0;
+    text-align: center;
+    gap:55px;
+}
+.leatest-blog .blog{
+    /* background-color: red; */
+    box-shadow: 0 0 10px rgba(126, 122, 122, 0.2);  
+    width: calc((100% - 110px)/3);
+    display: flex;
+    flex-direction: column;
+
+    flex-grow: 1;
+    text-align: center;
+    flex-basis: 250px;
+    flex-shrink: 0;
+    /* border-radius: 2px; */
+}
+.leatest-blog .blog-info{
+    padding: 20px 20px 30px 20px;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    align-items: flex-start;
+}
+@media screen and (max-width:576px){
+    .leatest-blog .blog{
+        width: 150px;
+        flex-basis: 200px;
+    }
+    .leatest-blog .icon{
+        display: none;
+    }
 }
 /* /////////////////////////////////////// */
 /* footer */
