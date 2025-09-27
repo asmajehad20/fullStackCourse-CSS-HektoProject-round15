@@ -141,7 +141,8 @@ body{
 }
 
 .featured-products .product .img{
-    background-color: #F6F7FB;  
+    background-color: #F6F7FB; 
+    position:relative; 
 }
 .featured-products .product img{
     background-color: #F6F7FB;
@@ -149,6 +150,24 @@ body{
     width: 180px;
     height: 180px;
     object-fit: contain;
+}
+.featured-products .interactive{
+    position: absolute;
+    left:15px;
+    top:15px;
+    display: none;
+}
+.featured-products .img button{
+    position: absolute;
+    bottom: 10px;
+    left: 20%; 
+    display: none;
+}
+.featured-products .interactive img{
+    height: 20px;
+    width: 20px;
+    padding:0;
+    background-color: transparent;
 }
 .featured-products .product-details{
     padding: 20px;
@@ -161,6 +180,12 @@ body{
 
 .featured-products .product:hover .product-details{
     background-color: #2F1AC4;
+}
+.featured-products .product:hover .interactive{
+    display: block;
+}
+.featured-products .product:hover .img button{
+    display: block;
 }
 .featured-products .product:hover span{
     color: white;
@@ -181,6 +206,7 @@ body{
 }
 .leatest-products .product .img{
     background-color: #F6F7FB;  
+    position: relative;
 }
 
 .leatest-products .product img{
@@ -189,6 +215,37 @@ body{
     width: 300px;
     height: 300px;
     object-fit: contain;
+}
+.leatest-products .sale-badge img{
+    position: absolute;
+    top:-15px;
+    height: 90px;
+    width: 90px;
+    background-color: transparent;
+    padding:0;
+    display: none;
+}
+
+.leatest-products .interactive-vertical{
+    position: absolute;
+    left:5px;
+    gap:10px;
+    bottom: 10px;
+    display: none;
+    flex-direction: column;
+}
+.leatest-products .interactive-vertical img{
+    padding:0;
+    background-color: transparent;
+    height: 20px;
+    width: 20px;
+    
+}
+.leatest-products .product:hover .sale-badge img{
+    display: block;
+}
+.leatest-products .product:hover .interactive-vertical{
+    display: block;
 }
 .leatest-products .product{
     flex-grow: 1;
@@ -312,6 +369,7 @@ body{
     border-left: 5px solid #F6F7FB;  
     border-bottom: 5px solid #F6F7FB;
     border-radius: 100%;  
+    position: relative;
 }
 .top-categories .product img{
     padding: 30px;
@@ -319,6 +377,13 @@ body{
     height: 200px;
     
     object-fit: contain;
+}
+.top-categories button{
+    position: absolute;
+    bottom: 15px;
+    left: 22%;
+    padding: 10px 20px;
+    display: none;
 }
 .top-categories .product-details{
     padding: 10px;
@@ -329,6 +394,9 @@ body{
 .top-categories .product:hover .img{
     border-left: 5px solid #8775B5;  
     border-bottom: 5px solid #8775B5;
+}
+.top-categories .product:hover button{
+    display: block;
 }
 @media screen and (max-width:576px){
     .top-categories .row{
