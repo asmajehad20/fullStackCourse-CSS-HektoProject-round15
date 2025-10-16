@@ -1,7 +1,18 @@
 body{
     font-family: var(--mainFont);
 }
+/* //////////////////////////////// */
+.dark{
+    background-color: #383838;
+}
+header.dark {
+  background-color: #2f2f2f; 
+}
 
+header.dark a {
+  color: #fff; 
+}
+/* ////////////////////////////////// */
 /* header */
 .header{
      padding: 30px 0;
